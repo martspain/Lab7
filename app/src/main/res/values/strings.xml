@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <string name="survey_init">Iniciar encuesta…</string>
+    <string name="add_question">Añadir pregunta…</string>
+    <string name="next">Siguiente</string>
+    <string name="survey_sec_init">Iniciar otra encuesta…</string>
+    <string name="add">Ingrese su pregunta</string>
+    <string name="answer">Ingrese su respuesta:</string>
+    <string name="rate_question">¿Qué le pareció nuestro servicio?</string>
+    <string name="finish">Terminar</string>
+    <string name="app_name_two">Encuestador</string>
+    <string name="navigation_menu">Menu de navegación</string>
+    <string name="result_title">Resultados</string>
+    <string name="see_answers">Ver respuestas</string>
+    <string name="about">Esta es una aplicación para crear encuestas y resolverlas…</string>
+    <string name="home">Mostrando el menu principal…</string>
+    <string name="questions">¿Tiene algun comentario o sugerencia?</string>
+    <string name="rates_res">Rating: 5</string>
+    <string name="number_res">Encuestas: 1</string>
+    <string name="show_res">Encuesta 1: Pregunta 1: "Respuesta"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
