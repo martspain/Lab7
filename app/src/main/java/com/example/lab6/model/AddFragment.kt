@@ -39,7 +39,7 @@ class AddFragment : Fragment(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         when(v!!.id){
-            R.id.cancel_button -> {
+            R.id.save_button -> {
                 if(!TextUtils.isEmpty(question_input.text.toString())){
                     val bundle = bundleOf("question" to question_input.text.toString())
                     navController.navigate(R.id.action_addFragment_to_mainFragment2, bundle)
@@ -48,7 +48,7 @@ class AddFragment : Fragment(), View.OnClickListener {
                     Toast.makeText(activity, "Ingrese una pregunta", Toast.LENGTH_SHORT).show()
                 }
             }
-            R.id.save_button -> activity!!.onBackPressed()
+            R.id.cancel_button -> activity!!.onBackPressed()
         }
     }
 

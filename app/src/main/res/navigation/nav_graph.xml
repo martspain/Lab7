@@ -52,6 +52,9 @@
         <action
             android:id="@+id/action_resultsFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_resultsFragment_to_listView"
+            app:destination="@id/listView" />
     </fragment>
 
     <fragment
@@ -60,9 +63,14 @@
         android:label="fragment_survey"
         tools:layout="@layout/fragment_survey" >
         <argument android:name="question"
-            android:defaultValue="¿Tiene algún comentaio o sugerencia?"/>
+            android:defaultValue="¿Tiene algún comentario o sugerencia?"/>
         <action
             android:id="@+id/action_surveyFragment_to_ratingFragment"
             app:destination="@id/ratingFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/listView"
+        android:name="com.example.lab6.recyclerView.ListView"
+        android:label="fragment_list_view"
+        tools:layout="@layout/fragment_list_view" />
 </navigation>

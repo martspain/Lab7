@@ -18,6 +18,8 @@
     <string name="rates_res">Rating: 5</string>
     <string name="number_res">Encuestas: 1</string>
     <string name="show_res">Encuesta 1: Pregunta 1: "Respuesta"</string>
+    <string name="default_question">Pregunta: ¿Tiene algún comentario o sugerencia?</string>
+    <string name="default_answer">Respuesta: Sí, me gustaría agregar redes sociales.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

@@ -28,7 +28,7 @@ class ResultsFragment : Fragment(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         question = arguments!!.getString("question")!!
         answer = arguments!!.getString("answer")!!
-        stars = arguments!!.getString("stars")!!
+        stars = "5"
     }
 
     override fun onCreateView(
@@ -54,7 +54,7 @@ class ResultsFragment : Fragment(), View.OnClickListener {
                 navController.navigate(R.id.action_resultsFragment_to_mainFragment)
             }
             R.id.get_answers -> {
-                Toast.makeText(activity, message, Toast.LENGTH_SHORT).show()
+                navController.navigate(R.id.action_resultsFragment_to_listView)
             }
         }
     }
